@@ -13,6 +13,7 @@
 		FD30A2AA1AA98E2C00CBE5D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD30A2A91AA98E2C00CBE5D3 /* Images.xcassets */; };
 		FD30A2AD1AA98E2C00CBE5D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD30A2AB1AA98E2C00CBE5D3 /* LaunchScreen.xib */; };
 		FD30A2B91AA98E2C00CBE5D3 /* SegueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD30A2B81AA98E2C00CBE5D3 /* SegueTests.swift */; };
+		FD30A2C31AA9926600CBE5D3 /* ColorTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD30A2C21AA9926600CBE5D3 /* ColorTwoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		FD30A2B21AA98E2C00CBE5D3 /* SegueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD30A2B71AA98E2C00CBE5D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD30A2B81AA98E2C00CBE5D3 /* SegueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueTests.swift; sourceTree = "<group>"; };
+		FD30A2C21AA9926600CBE5D3 /* ColorTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorTwoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				FD30A2A21AA98E2C00CBE5D3 /* AppDelegate.swift */,
 				FD30A2A41AA98E2C00CBE5D3 /* ViewController.swift */,
 				FD30A2A61AA98E2C00CBE5D3 /* Main.storyboard */,
+				FD30A2C21AA9926600CBE5D3 /* ColorTwoViewController.swift */,
 				FD30A2A91AA98E2C00CBE5D3 /* Images.xcassets */,
 				FD30A2AB1AA98E2C00CBE5D3 /* LaunchScreen.xib */,
 				FD30A2A01AA98E2C00CBE5D3 /* Supporting Files */,
@@ -214,6 +217,7 @@
 			files = (
 				FD30A2A51AA98E2C00CBE5D3 /* ViewController.swift in Sources */,
 				FD30A2A31AA98E2C00CBE5D3 /* AppDelegate.swift in Sources */,
+				FD30A2C31AA9926600CBE5D3 /* ColorTwoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
