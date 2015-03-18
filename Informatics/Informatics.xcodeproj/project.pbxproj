@@ -11,6 +11,7 @@
 		FD03DE151AA9B10F008D39C6 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03DE141AA9B10F008D39C6 /* TableViewCell.swift */; };
 		FD03DE171AA9B1DE008D39C6 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03DE161AA9B1DE008D39C6 /* data.swift */; };
 		FD03DE191AA9B1FE008D39C6 /* balloon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03DE181AA9B1FE008D39C6 /* balloon.swift */; };
+		FDC38BEB1AB95BCF00A81ED6 /* computer-science1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FDC38BEA1AB95BCF00A81ED6 /* computer-science1.jpg */; };
 		FDC547421AA9A16900B36DD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC547411AA9A16900B36DD0 /* AppDelegate.swift */; };
 		FDC547471AA9A16900B36DD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC547451AA9A16900B36DD0 /* Main.storyboard */; };
 		FDC547491AA9A16900B36DD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC547481AA9A16900B36DD0 /* Images.xcassets */; };
@@ -35,6 +36,7 @@
 		FD03DE141AA9B10F008D39C6 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		FD03DE161AA9B1DE008D39C6 /* data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 		FD03DE181AA9B1FE008D39C6 /* balloon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = balloon.swift; sourceTree = "<group>"; };
+		FDC38BEA1AB95BCF00A81ED6 /* computer-science1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "computer-science1.jpg"; path = "../../computer-science1.jpg"; sourceTree = "<group>"; };
 		FDC5473C1AA9A16900B36DD0 /* Informatics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Informatics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC547401AA9A16900B36DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDC547411AA9A16900B36DD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		FDC5473F1AA9A16900B36DD0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FDC38BEA1AB95BCF00A81ED6 /* computer-science1.jpg */,
 				FDC547631AA9A2CD00B36DD0 /* IT.png */,
 				FDC547401AA9A16900B36DD0 /* Info.plist */,
 			);
@@ -210,6 +213,7 @@
 				FDC547471AA9A16900B36DD0 /* Main.storyboard in Resources */,
 				FDC5474C1AA9A16900B36DD0 /* LaunchScreen.xib in Resources */,
 				FDC547641AA9A2CD00B36DD0 /* IT.png in Resources */,
+				FDC38BEB1AB95BCF00A81ED6 /* computer-science1.jpg in Resources */,
 				FDC547491AA9A16900B36DD0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
