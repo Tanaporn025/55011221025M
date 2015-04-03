@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD5122D91ACE6C86006297BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5122D81ACE6C86006297BE /* AppDelegate.swift */; };
+		FD5122DB1ACE6C86006297BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5122DA1ACE6C86006297BE /* ViewController.swift */; };
+		FD5122DE1ACE6C86006297BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5122DC1ACE6C86006297BE /* Main.storyboard */; };
+		FD5122E01ACE6C86006297BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD5122DF1ACE6C86006297BE /* Images.xcassets */; };
+		FD5122E31ACE6C86006297BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD5122E11ACE6C86006297BE /* LaunchScreen.xib */; };
+		FD5122EF1ACE6C86006297BE /* PicKerControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5122EE1ACE6C86006297BE /* PicKerControllerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD5122E91ACE6C86006297BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD5122CB1ACE6C86006297BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD5122D21ACE6C86006297BE;
+			remoteInfo = PicKerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD5122D31ACE6C86006297BE /* PicKerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicKerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5122D71ACE6C86006297BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD5122D81ACE6C86006297BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD5122DA1ACE6C86006297BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD5122DD1ACE6C86006297BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD5122DF1ACE6C86006297BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD5122E21ACE6C86006297BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FD5122E81ACE6C86006297BE /* PicKerControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicKerControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5122ED1ACE6C86006297BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD5122EE1ACE6C86006297BE /* PicKerControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicKerControllerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD5122D01ACE6C86006297BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5122E51ACE6C86006297BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD5122CA1ACE6C86006297BE = {
+			isa = PBXGroup;
+			children = (
+				FD5122D51ACE6C86006297BE /* PicKerController */,
+				FD5122EB1ACE6C86006297BE /* PicKerControllerTests */,
+				FD5122D41ACE6C86006297BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD5122D41ACE6C86006297BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD5122D31ACE6C86006297BE /* PicKerController.app */,
+				FD5122E81ACE6C86006297BE /* PicKerControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD5122D51ACE6C86006297BE /* PicKerController */ = {
+			isa = PBXGroup;
+			children = (
+				FD5122D81ACE6C86006297BE /* AppDelegate.swift */,
+				FD5122DA1ACE6C86006297BE /* ViewController.swift */,
+				FD5122DC1ACE6C86006297BE /* Main.storyboard */,
+				FD5122DF1ACE6C86006297BE /* Images.xcassets */,
+				FD5122E11ACE6C86006297BE /* LaunchScreen.xib */,
+				FD5122D61ACE6C86006297BE /* Supporting Files */,
+			);
+			path = PicKerController;
+			sourceTree = "<group>";
+		};
+		FD5122D61ACE6C86006297BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD5122D71ACE6C86006297BE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD5122EB1ACE6C86006297BE /* PicKerControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD5122EE1ACE6C86006297BE /* PicKerControllerTests.swift */,
+				FD5122EC1ACE6C86006297BE /* Supporting Files */,
+			);
+			path = PicKerControllerTests;
+			sourceTree = "<group>";
+		};
+		FD5122EC1ACE6C86006297BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD5122ED1ACE6C86006297BE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD5122D21ACE6C86006297BE /* PicKerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5122F21ACE6C86006297BE /* Build configuration list for PBXNativeTarget "PicKerController" */;
+			buildPhases = (
+				FD5122CF1ACE6C86006297BE /* Sources */,
+				FD5122D01ACE6C86006297BE /* Frameworks */,
+				FD5122D11ACE6C86006297BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicKerController;
+			productName = PicKerController;
+			productReference = FD5122D31ACE6C86006297BE /* PicKerController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD5122E71ACE6C86006297BE /* PicKerControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5122F51ACE6C86006297BE /* Build configuration list for PBXNativeTarget "PicKerControllerTests" */;
+			buildPhases = (
+				FD5122E41ACE6C86006297BE /* Sources */,
+				FD5122E51ACE6C86006297BE /* Frameworks */,
+				FD5122E61ACE6C86006297BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD5122EA1ACE6C86006297BE /* PBXTargetDependency */,
+			);
+			name = PicKerControllerTests;
+			productName = PicKerControllerTests;
+			productReference = FD5122E81ACE6C86006297BE /* PicKerControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD5122CB1ACE6C86006297BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = iStudents;
+				TargetAttributes = {
+					FD5122D21ACE6C86006297BE = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					FD5122E71ACE6C86006297BE = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FD5122D21ACE6C86006297BE;
+					};
+				};
+			};
+			buildConfigurationList = FD5122CE1ACE6C86006297BE /* Build configuration list for PBXProject "PicKerController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD5122CA1ACE6C86006297BE;
+			productRefGroup = FD5122D41ACE6C86006297BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD5122D21ACE6C86006297BE /* PicKerController */,
+				FD5122E71ACE6C86006297BE /* PicKerControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD5122D11ACE6C86006297BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5122DE1ACE6C86006297BE /* Main.storyboard in Resources */,
+				FD5122E31ACE6C86006297BE /* LaunchScreen.xib in Resources */,
+				FD5122E01ACE6C86006297BE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5122E61ACE6C86006297BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD5122CF1ACE6C86006297BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5122DB1ACE6C86006297BE /* ViewController.swift in Sources */,
+				FD5122D91ACE6C86006297BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5122E41ACE6C86006297BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5122EF1ACE6C86006297BE /* PicKerControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD5122EA1ACE6C86006297BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD5122D21ACE6C86006297BE /* PicKerController */;
+			targetProxy = FD5122E91ACE6C86006297BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD5122DC1ACE6C86006297BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD5122DD1ACE6C86006297BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD5122E11ACE6C86006297BE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD5122E21ACE6C86006297BE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD5122F01ACE6C86006297BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD5122F11ACE6C86006297BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD5122F31ACE6C86006297BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PicKerController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD5122F41ACE6C86006297BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PicKerController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD5122F61ACE6C86006297BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PicKerControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicKerController.app/PicKerController";
+			};
+			name = Debug;
+		};
+		FD5122F71ACE6C86006297BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PicKerControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicKerController.app/PicKerController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD5122CE1ACE6C86006297BE /* Build configuration list for PBXProject "PicKerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5122F01ACE6C86006297BE /* Debug */,
+				FD5122F11ACE6C86006297BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD5122F21ACE6C86006297BE /* Build configuration list for PBXNativeTarget "PicKerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5122F31ACE6C86006297BE /* Debug */,
+				FD5122F41ACE6C86006297BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD5122F51ACE6C86006297BE /* Build configuration list for PBXNativeTarget "PicKerControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5122F61ACE6C86006297BE /* Debug */,
+				FD5122F71ACE6C86006297BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD5122CB1ACE6C86006297BE /* Project object */;
+}

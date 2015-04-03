@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD5C172F1AC55CC300FD30AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5C172E1AC55CC300FD30AA /* AppDelegate.swift */; };
+		FD5C17311AC55CC300FD30AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5C17301AC55CC300FD30AA /* ViewController.swift */; };
+		FD5C17341AC55CC300FD30AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5C17321AC55CC300FD30AA /* Main.storyboard */; };
+		FD5C17361AC55CC300FD30AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD5C17351AC55CC300FD30AA /* Images.xcassets */; };
+		FD5C17391AC55CC300FD30AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD5C17371AC55CC300FD30AA /* LaunchScreen.xib */; };
+		FD5C17451AC55CC300FD30AA /* fishAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5C17441AC55CC300FD30AA /* fishAnimationTests.swift */; };
+		FD5C17511AC55D1800FD30AA /* click.png in Resources */ = {isa = PBXBuildFile; fileRef = FD5C17501AC55D1800FD30AA /* click.png */; };
+		FDC4850E1AC5630700C967F7 /* avzbt1.png in Resources */ = {isa = PBXBuildFile; fileRef = FDC4850D1AC5630700C967F7 /* avzbt1.png */; };
+		FDC485101AC5667100C967F7 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = FDC4850F1AC5667100C967F7 /* 3.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD5C173F1AC55CC300FD30AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD5C17211AC55CC300FD30AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD5C17281AC55CC300FD30AA;
+			remoteInfo = fishAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD5C17291AC55CC300FD30AA /* fishAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fishAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5C172D1AC55CC300FD30AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD5C172E1AC55CC300FD30AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD5C17301AC55CC300FD30AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD5C17331AC55CC300FD30AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD5C17351AC55CC300FD30AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD5C17381AC55CC300FD30AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FD5C173E1AC55CC300FD30AA /* fishAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fishAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5C17431AC55CC300FD30AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD5C17441AC55CC300FD30AA /* fishAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishAnimationTests.swift; sourceTree = "<group>"; };
+		FD5C17501AC55D1800FD30AA /* click.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = click.png; path = ../../click.png; sourceTree = "<group>"; };
+		FDC4850D1AC5630700C967F7 /* avzbt1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = avzbt1.png; path = ../../avzbt1.png; sourceTree = "<group>"; };
+		FDC4850F1AC5667100C967F7 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = ../../3.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD5C17261AC55CC300FD30AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5C173B1AC55CC300FD30AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD5C17201AC55CC300FD30AA = {
+			isa = PBXGroup;
+			children = (
+				FD5C172B1AC55CC300FD30AA /* fishAnimation */,
+				FD5C17411AC55CC300FD30AA /* fishAnimationTests */,
+				FD5C172A1AC55CC300FD30AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD5C172A1AC55CC300FD30AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD5C17291AC55CC300FD30AA /* fishAnimation.app */,
+				FD5C173E1AC55CC300FD30AA /* fishAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD5C172B1AC55CC300FD30AA /* fishAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				FD5C172E1AC55CC300FD30AA /* AppDelegate.swift */,
+				FD5C17301AC55CC300FD30AA /* ViewController.swift */,
+				FD5C17321AC55CC300FD30AA /* Main.storyboard */,
+				FD5C17351AC55CC300FD30AA /* Images.xcassets */,
+				FD5C17371AC55CC300FD30AA /* LaunchScreen.xib */,
+				FD5C172C1AC55CC300FD30AA /* Supporting Files */,
+			);
+			path = fishAnimation;
+			sourceTree = "<group>";
+		};
+		FD5C172C1AC55CC300FD30AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDC4850F1AC5667100C967F7 /* 3.png */,
+				FDC4850D1AC5630700C967F7 /* avzbt1.png */,
+				FD5C17501AC55D1800FD30AA /* click.png */,
+				FD5C172D1AC55CC300FD30AA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD5C17411AC55CC300FD30AA /* fishAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD5C17441AC55CC300FD30AA /* fishAnimationTests.swift */,
+				FD5C17421AC55CC300FD30AA /* Supporting Files */,
+			);
+			path = fishAnimationTests;
+			sourceTree = "<group>";
+		};
+		FD5C17421AC55CC300FD30AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD5C17431AC55CC300FD30AA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD5C17281AC55CC300FD30AA /* fishAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5C17481AC55CC300FD30AA /* Build configuration list for PBXNativeTarget "fishAnimation" */;
+			buildPhases = (
+				FD5C17251AC55CC300FD30AA /* Sources */,
+				FD5C17261AC55CC300FD30AA /* Frameworks */,
+				FD5C17271AC55CC300FD30AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fishAnimation;
+			productName = fishAnimation;
+			productReference = FD5C17291AC55CC300FD30AA /* fishAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD5C173D1AC55CC300FD30AA /* fishAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5C174B1AC55CC300FD30AA /* Build configuration list for PBXNativeTarget "fishAnimationTests" */;
+			buildPhases = (
+				FD5C173A1AC55CC300FD30AA /* Sources */,
+				FD5C173B1AC55CC300FD30AA /* Frameworks */,
+				FD5C173C1AC55CC300FD30AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD5C17401AC55CC300FD30AA /* PBXTargetDependency */,
+			);
+			name = fishAnimationTests;
+			productName = fishAnimationTests;
+			productReference = FD5C173E1AC55CC300FD30AA /* fishAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD5C17211AC55CC300FD30AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = iStudents;
+				TargetAttributes = {
+					FD5C17281AC55CC300FD30AA = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					FD5C173D1AC55CC300FD30AA = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FD5C17281AC55CC300FD30AA;
+					};
+				};
+			};
+			buildConfigurationList = FD5C17241AC55CC300FD30AA /* Build configuration list for PBXProject "fishAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD5C17201AC55CC300FD30AA;
+			productRefGroup = FD5C172A1AC55CC300FD30AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD5C17281AC55CC300FD30AA /* fishAnimation */,
+				FD5C173D1AC55CC300FD30AA /* fishAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD5C17271AC55CC300FD30AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5C17341AC55CC300FD30AA /* Main.storyboard in Resources */,
+				FD5C17511AC55D1800FD30AA /* click.png in Resources */,
+				FD5C17391AC55CC300FD30AA /* LaunchScreen.xib in Resources */,
+				FDC485101AC5667100C967F7 /* 3.png in Resources */,
+				FD5C17361AC55CC300FD30AA /* Images.xcassets in Resources */,
+				FDC4850E1AC5630700C967F7 /* avzbt1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5C173C1AC55CC300FD30AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD5C17251AC55CC300FD30AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5C17311AC55CC300FD30AA /* ViewController.swift in Sources */,
+				FD5C172F1AC55CC300FD30AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5C173A1AC55CC300FD30AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5C17451AC55CC300FD30AA /* fishAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD5C17401AC55CC300FD30AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD5C17281AC55CC300FD30AA /* fishAnimation */;
+			targetProxy = FD5C173F1AC55CC300FD30AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD5C17321AC55CC300FD30AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD5C17331AC55CC300FD30AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD5C17371AC55CC300FD30AA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD5C17381AC55CC300FD30AA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD5C17461AC55CC300FD30AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD5C17471AC55CC300FD30AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD5C17491AC55CC300FD30AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fishAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD5C174A1AC55CC300FD30AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fishAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD5C174C1AC55CC300FD30AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = fishAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fishAnimation.app/fishAnimation";
+			};
+			name = Debug;
+		};
+		FD5C174D1AC55CC300FD30AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = fishAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fishAnimation.app/fishAnimation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD5C17241AC55CC300FD30AA /* Build configuration list for PBXProject "fishAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5C17461AC55CC300FD30AA /* Debug */,
+				FD5C17471AC55CC300FD30AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD5C17481AC55CC300FD30AA /* Build configuration list for PBXNativeTarget "fishAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5C17491AC55CC300FD30AA /* Debug */,
+				FD5C174A1AC55CC300FD30AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD5C174B1AC55CC300FD30AA /* Build configuration list for PBXNativeTarget "fishAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5C174C1AC55CC300FD30AA /* Debug */,
+				FD5C174D1AC55CC300FD30AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD5C17211AC55CC300FD30AA /* Project object */;
+}
